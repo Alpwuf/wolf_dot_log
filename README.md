@@ -1,9 +1,17 @@
 # wolf_dot_log
-A simple package that allows you to save inputs & outputs as .log files
+A simple package that allows you to save inputs & outputs as .log files  
+  
+pip install wolf_dot_log  
+pip3 install wolf_dot_log  
 
 ## |Instructions|
 ### [Importing The Module]  
 import wolf_dot_log as log 
+#### [if you installed using pip]:  
+  
+from wolf_dot_log import wolf_dot_log as log
+  
+
   
 ### [Configuration]
 log.backup = True  ***[Set True if a duplicated backup is needed, the default is False]***  
